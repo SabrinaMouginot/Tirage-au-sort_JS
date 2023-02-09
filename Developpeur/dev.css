@@ -1,0 +1,13 @@
+.dev{
+    background-color: rgb(192, 205, 255);
+    font-family: 'Tangerine', serif, 'Itim';
+    font-size: 220%;
+    margin: 0;
+    z-index: 30;
+    font-weight: 900;
+}
+
+.copyright{
+    font-size: medium;
+}
+

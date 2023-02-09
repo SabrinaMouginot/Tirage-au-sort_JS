@@ -1,0 +1,9 @@
+body {
+    font-family: 'Tangerine', serif, 'Itim';
+    font-size: 48px;
+    }
+
+.img-fluid{
+    width: 90px;
+    height: 90px;
+}

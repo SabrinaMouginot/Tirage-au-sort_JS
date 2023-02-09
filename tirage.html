@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tirage au sort des noms</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="tirage.css"/>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+
+    <!--PaperCSS: Framework CSS pour simplifier le prototypage-->
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="assets/favicon.png"/>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid col-sm col-md col-lg col-xl">
+                <!-- <a class="navbar-brand" href="#">Sabrina MOUGINOT </a> -->
+                <a class="navbar-brand" href="Developpeur/dev.html">Développeur Web & Web Mobile</a>
+
+                <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#album">Sabrina MOUGINOT</a>
+                    </li>
+                    <li class="nav-item">
+                          <a class="nav-link" target="_blank" href="https://github.com/SabrinaMouginot">Mon Github</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/sabrinamouginot/">Mon LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="assets/sabrina.png"><img class="img-fluid" src="assets/sabrina.png" alt="moi"/> </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="sabrina">
+            <div class="row">
+                <div class="col-12">
+                    <script src="tirage.js"></script>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-9 col-sm col-md col-lg col-xl"> 
+                  <!--Ici, pour tous les écrans sans restrictions de taille, 
+                  9 colonnes sont attribuées à cette div
+                      NOTA BENE : pour le responsive, les modificateurs: 
+                                  -md écrans >= 768 px 
+                                  -lg écrans >= 992 px
+                                  -xl écrans >= 1200 px-->
+
+                      <!--offset pour déplacer les colonnes vers la droite. 
+                          Ici, offset-3 déplace le titre h1 de 3 colonnes vers la droite-->
+
+                </div>
+                <div class="col-3 col-sm col-md col-lg col-xl">
+
+                </div>
+            </div>
+        </section>
+  
+    </div>
+</body>
+</html>
