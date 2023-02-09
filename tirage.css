@@ -3,10 +3,20 @@ body {
     font-size: 48px;
     }
 
+.container{
+    height: 380dvh;
+    background-color: rgb(192, 205, 255);
+
+}
+
 .img-fluid{
     width: 90px;
     height: 90px;
 }
+
+/* .tirage{
+    padding-top: 20%;
+} */
 
 
 /* Une partie était caché sous la barre de navigation en haut de page. 
@@ -16,25 +26,56 @@ Et j'ai pensé à utilisé les medias queries pour que ce margin-top s'adaptte e
 @media only screen and (min-width : 1224px){
     /* Desktops et laptops: Styles pour cette Media Queries */
 .tirage{
-    padding-top: 200px;
+    padding-top: 30%;
 }
 }
 
 @media only screen and (max-width : 1223px) and (min-width : 997px) {
 .tirage{
-    padding-top: 225px;
+    padding-top: 40%;
 }
 }
 
 @media only screen and (max-width : 996px) and (min-width : 769px) {
 .tirage{
-    padding-top: 300px;
+    padding-top: 60%;
 }
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 768px) and (min-width : 551px){
 .tirage{
-    padding-top: 500px;
+    padding-top: 100%;
 }
 }
 
+@media only screen and (max-width : 550px) and (min-width : 451px){
+    .tirage{
+        padding-top: 130%;
+    }
+    }
+
+@media only screen and (max-width : 450px) and (min-width : 350px){
+    .tirage{
+        padding-top: 165%;
+    }
+    }
+
+@media only screen and (max-width : 349px) and (min-width : 290px){
+    .tirage{
+        padding-top: 220%;
+    }
+    }
+
+@media only screen and (max-width : 289px) and (min-width : 201px){
+    .tirage{
+        padding-top: 260%;
+    }
+    }
+
+    
+@media only screen and (max-width : 200px) {
+    .tirage{
+        padding-top: 350%;
+    }
+    }
+    
