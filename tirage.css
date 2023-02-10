@@ -4,7 +4,14 @@ body {
     background-color: rgb(192, 205, 255);
     }
 
-.img-fluid{
-    width: 90px;
-    height: 90px;
+.tirage{
+    text-align: center;
+    margin-top: 150px;
+}
+
+button{
+    width: 150px;
+    height: 150px;
+    border: thick double rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
 }
