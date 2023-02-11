@@ -11,3 +11,4 @@ function tirage(){
     }
     else alert("Veillez ajouter des noms");
 }
+
