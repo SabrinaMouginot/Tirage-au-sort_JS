@@ -1,3 +1,5 @@
+document.write("<div class='tirage'><button onclick='nom()'>Ajouter un nom</button><button onclick='tirage()'>Tirage au sort</button></div>")
+
 var tab=new Array();
 function nom(){
     tab.push(prompt("Saisir un nom"));

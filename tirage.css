@@ -1,3 +1,8 @@
+body {
+    font-size: 48px;
+    background-color: rgb(215, 221, 244);
+    }
+
 .tirage{
     text-align: center;
     margin-top: 150px;
@@ -6,4 +11,7 @@
 button{
     width: 150px;
     height: 150px;
+    border: thick double rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 50%;
 }
